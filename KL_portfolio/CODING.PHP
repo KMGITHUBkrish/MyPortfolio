@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <button id="myButton">Click Me</button>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" media="screen and (max-width:800px)" 
+    href="table.css">
+    <link rel="stylesheet" media="screen and (max-width:530px)" href="phone.css">
+
+
+</head>
+<body>
+
+    <header>
+        <nav>
+          <img src="mylogo.png" class="logo" />
+          <ul>
+            <li><a href="#section1">Section 1</a></li>
+            <li><a href="#section2">Section 2</a></li>
+            <li><a href="#section3">Section 3</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <main>
+        <section id="section1">
+          <h2>Section 1</h2>
+          <!-- Content of section 1 -->
+        </section>
+    
+        <section id="section2">
+          <h2>Section 2</h2>
+          <!-- Content of section 2 -->
+        </section>
+    
+        <section id="section3">
+          <h2>Section 3</h2>
+          <!-- Content of section 3 -->
+        </section>
+      </main>
+    
+      <script src="hideAndShow.js"></script>
+
+
+
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#thoughts">Thoughts</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+            <li><a href="#insert data">Insert Data</a></li>
+        </ul>
+    </nav>
+
+   <section id="home">
+        <div class="main">
+            <img src="C:\Users\krish\Downloads\photo2.jpeg" width="50%" height="40%">
+            <h2 class="headings">I AM<br>KRISHANI  LIYANAGE</h2>
+        </div>
+   </section> 
+   
+   <section id="about">
+        <div id="pic">
+            <h1 class="headings">ABOUT ME</h1>
+            <img src="" alt="">
+            <div id="intro">
+                <h2><br><br>KRISHANI LIYANAGE</h2>
+                <p><br>Once upon a time, a beautiful innocent girl was born in a small family in a beautiful village called Deiyandara .She alone claimed the love of her mother and father , after a while she shared the right of that love with her brother and sister.
+                    Although mischievous at heart, she claimed to have a quite character. After her school days she allowed the mischievous character hidden in her to enjoy life.
+                    That was when her university life began.Indeed, that was the beginning of the most beautiful time of her life. 
+                    Her name is Krishani Liyanage. She is an undergraduate student of faculty of applied sciences at Rajarata university of Sri Lanka in 19/20 batch. She is none other than myself Krishani.</p>
+                <br><P>Sometimes I am a poet, sometimes I am a singer, sometimes I am a dancer.Really I enjoy my poetry. I am mortivated by my own words. My best fan is myself. All these roles help me to fulfill my life happily. I think if we want to move forward we have to be honest with ourselves.We have to respect ourselves.</P>
+                </div>
+        </div>
+    </section>
+    
+    <section id="portfolio">
+        <h2 class="headings">PORTFOLIO</h2>
+        <div class="gallery">
+            <!-- Slideshow container -->
+
+    <div class="slideshow-container">
+
+    <!-- Full-width images with number and caption text -->
+    <div class="mySlides fade">
+      <div class="numbertext">1 / 3</div>
+      <img src="C:\Users\krish\Downloads\photo1.jpeg">
+      <div class="text">Caption One</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 3</div>
+      <img src="C:\Users\krish\Downloads\photo3.jpeg">
+      <div class="text">Caption Two</div>
+    </div>
+  
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 3</div>
+      <img src="C:\Users\krish\Downloads\photo5.jpeg">
+      <div class="text">Caption Three</div>
+    </div>
+
+    
+    <!-- Next and previous buttons -->
+    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+  </div>
+  <br>
+  
+  <!-- The dots/circles -->
+  <div style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"></span>
+    <span class="dot" onclick="currentSlide(2)"></span>
+    <span class="dot" onclick="currentSlide(3)"></span>
+    </section>
+
+    <section id="thoughts">
+        <h1 class="headings">THOUGHTS</h1>
+        <div class="row">
+            <div class="box">
+                <h1><br>What I Love Most</h1S>
+                <p><h3><br><br>What I love most in my life is freedom.That's why I am more in touch with nature.
+                    I think the beauty of our life is hidden in nature. Only those who love nature can find it.
+                     I invite you to be a nature lover and enjoy that freedom.</p>
+                </h3></p> 
+            </div>
+            <div class="box">
+                <h1><br>Achievements</h1>
+                <p><h3><br><br>Having passed the gce olevel and advanced level examination  and came to the university I am now 
+                    trying to improve my skills that I have  hidden. </p>
+                </h3></p> 
+            </div>
+            <div class="box">
+                <h1><br>Ambition</h1>
+                <p><h3><br><br>I want to be the kind of person that I can be proud of 
+                    when I look back at myself one day.</p>
+                </h3></p> 
+            </div>
+            <div class="box">
+                <h1><br>Hopes</h1>
+                <p><h3><br><br>  
+                     I love to have a free lifestyle while continuing my academics 
+                     and other works. I remember with all my heart that I have achieved
+                      it to some extent because of my university friends. I will remember
+                       the never-fading beautiful and loving memories that they gifted me 
+                       with until I leave my life. Although the time I experienced in my 
+                       life still feels very small, those memories will come with me 
+                       throughout this lifetime. Many more will be waiting to meet me and 
+                       join me. 
+                    </p>
+                </h3></p> 
+            </div>
+        </div>
+    </section>
+
+    <section id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+            <h1 class="sub-title">Contact me</h1>
+            <p><i class="fa-sharp fa-solid fa-paper-plane"></i>contact@example.com</p>
+            <p><i class="fa-solid fa-phone"></i>0112239345</p>
+            <div class="social-icons">
+              <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+              <a href="https://twitter.com"><i class="fa-brands fa-twitter"></i></a>
+              <a href="https://intagram.com"><i class="fa-brands fa-square-instagram"></i></a>
+              <a href="https://linkedin.com"><i class="fa-brands fa-linkedin"></i></a>
+            </div>
+            <a href="my-cv.pdf" download class="btn btn2">Download CV</a>
+          </div>
+          <div class="contact-right">
+
+            <form name="submit-to-google-sheet">
+              <input type="text" name="Name" placeholder="Your Name" required>
+              <input type="email" name="Email" placeholder="Your Email" required>
+              <textarea name="Message" placeholder="Your Message"></textarea>
+              <button type="submit" class="btn btn2">Submit</button>
+            </form>
+            
+            <span id="msg"></span>
+          </div>
+        </div>
+    </section>
+
+    <section id="insert data">    
+      <div class="container">
+        <div class="row">
+          <div class="contact-left">
+              <h1 class="headings">Insert Data</h1>          
+          </div>
+              
+          <div class="contact-center"></div>
+              <form name="submit-to-google-sheet">
+                <input type="text" name="ID" placeholder="ID" required>
+                <input type="text" name="Title" placeholder="Title" required>
+                <textarea name="Description" placeholder="Description"></textarea>
+                <input type="image" name="Image" placeholder="Image" required><br>
+                <button type="submit" class="btn btn2">Submit</button>
+              </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+        
+    <script src="hideAndShow.js"></script>
+      
+      
+      
+
+
+
+    <!-- footer page start -->
+<section class="section" id="footer">
+    <footer>
+        <div class="footer-content">
+            <h3>Life Event</h3>
+            <p>
+                This is a self mortivation for me.Try to mortivate your self. Good luck ...........
+            </p>
+           
+                 <div class="home-profile-sci">
+        <a href="#" style="--i:1"><i class='bx bxl-facebook'></i></a>
+        <a href="#" style="--i:2"><i class='bx bxl-youtube'></i></a>
+        <a href="#" style="--i:3"><i class='bx bxl-twitter'></i></a>
+        <a href="#" style="--i:4"><i class='bx bxl-instagram'></i></a>
+        <a href="#" style="--i:5"><i class='bx bxl-whatsapp'></i></a>
+        <a href="#" style="--i:6"><i class='bx bxl-tiktok'></i></a>
+        <a href="#" style="--i:7"><i class='bx bxl-linkedin'></i></a>
+        <a href="#" style="--i:8"><i class='bx bxl-github'></i></a>
+
+    </div>
+           
+        </div>
+        <div class="footer-bottom">
+            <p>copyright &copy; <a href="#">life event</a>  </p>
+                    <div class="footer-menu">
+                      <ul class="f-menu">                    
+                        <ul>
+                            <li><a href="#home">Home</a></li>
+                            <li><a href="#about">About Me</a></li>
+                            <li><a href="#portfolio">Portfolio</a></li>
+                            <li><a href="#thoughts">Thoughts</a></li>
+                            <li><a href="#contact">Contact Me</a></li>
+                            <li><a href="#contact">Insert Data</a></li>
+                        </ul>
+                      </ul>
+                    </div>
+        </div>
+
+    </footer>
+</section>
+<!-- footer page end -->
+
+<!-- javascript start -->
+<script type="text/javascript" src="javascript/script.js"></script>
+<script type="text/javascript" src="javascript/seemorebutton.js"></script>
+ <script src="https://unpkg.com/typed.js@2.0.15/dist/typed.umd.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+ <script type="text/javascript" src="javascript/home.js"></script>
+<!-- javascript end -->
+
+
+
+
+
+
+
+      
+      
+      <?php
+      // define variables and set to empty values
+      $nameErr = $emailErr = $genderErr = $websiteErr = "";
+      $name = $email = $gender = $comment = $website = "";
+
+      if ($_SERVER["REQUEST_METHOD"] == "POST") {
+        if (empty($_POST["name"])) {
+          $nameErr = "Name is required";
+        } else {
+          $name = test_input($_POST["name"]);
+        }
+        
+        if (empty($_POST["email"])) {
+          $emailErr = "Email is required";
+        } else {
+          $email = test_input($_POST["email"]);
+        }
+          
+
+        if (empty($_POST["comment"])) {
+          $comment = "";
+        } else {
+          $comment = test_input($_POST["comment"]);
+        }
+
+
+      }
+
+      function test_input($data) {
+        $data = trim($data);
+        $data = stripslashes($data);
+        $data = htmlspecialchars($data);
+        return $data;
+      }
+      ?>
+      </body>
+      </html>
